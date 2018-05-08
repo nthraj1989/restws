@@ -14,7 +14,7 @@ import javax.ws.rs.core.Response;
 
 import com.razz.restws.model.Medicine;
 
-//Jax-RS annotation.
+//Jax-RS annotation. End point URL
 @Consumes("application/xml,application/json")
 @Produces("application/xml,application/json")
 @Path("/medicineservice")

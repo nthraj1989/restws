@@ -14,6 +14,7 @@ import javax.ws.rs.core.Response;
 
 import com.razz.restws.model.Medicine;
 
+//Jax-RS annotation.
 @Consumes("application/xml,application/json")
 @Produces("application/xml,application/json")
 @Path("/medicineservice")
